@@ -1,0 +1,486 @@
+/* 
+      List of Index
+=========================
+1:Common css
+2:Home page css
+3:Shop page css
+4:Philosophie css
+5:Uber css
+
+*/
+
+/* 
+font family list
+========================
+
+
+font-family: 'Overlock', cursive;
+font-family: 'Overpass', sans-serif;
+font-family: 'Encode Sans SC', sans-serif;
+
+*/
+
+/* Index No 1 
+Common css start  */
+.container {
+  width: 1180px;
+  margin: auto;
+}
+body {
+  margin: 0;
+}
+
+.primary {
+  color: #fff;
+}
+
+/* Common css end  */
+
+/* Index 2
+ Home page start */
+/* header section */
+.header-section {
+  position: relative;
+}
+.header-bg {
+  background-color: #fff;
+  position: absolute;
+  margin: auto;
+  top: 30px;
+  width: 100%;
+}
+.header-menu {
+  display: grid;
+  grid-template-columns: 1fr 6fr 2fr;
+}
+.header-logo {
+  width: 122px;
+  height: 125px;
+}
+.header-menu-item-list ul {
+  border-bottom: 6px solid #000;
+  padding-bottom: 10px;
+}
+.header-menu-item-icon ul {
+  border-bottom: 6px solid #000;
+  margin-top: 6px;
+  padding-bottom: 10px;
+}
+.menu-item {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.menu-item li a {
+  font-family: Overlock;
+  font-style: regular;
+  font-size: 36px;
+  line-height: 44px;
+  margin-right: 25px;
+  text-decoration: none;
+  color: #000000;
+}
+.icon-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.icon-item li {
+  margin-left: 22px;
+}
+.de-icon img {
+  width: 10px;
+}
+.de-icon {
+  font-size: 22px;
+  font-family: overlock;
+}
+.contact-icon img {
+  width: 35px;
+}
+
+.top-section {
+  background-image: url("/src/img/banner.png");
+}
+
+/* header section  end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* main section css start */
+
+.banner-section {
+  background-image: url("/src/img/banner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 933px;
+  margin-top: 0px;
+}
+.banner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: end;
+  position: relative;
+}
+.banner-info {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 400px;
+}
+.banner-title-1 {
+  font-family: "Encode Sans SC", sans-serif;
+  font-size: 50px;
+  font-weight: 100;
+  line-height: 12px;
+   text-transform: capitalize;
+
+  text-align: end;
+}
+.banner-title-2 {
+  font-family: Overlock;
+  font-size: 35px;
+  line-height: 12px;
+  text-align: end;
+}
+.banner-title-3 {
+  font-family: "Overpass", sans-serif;
+  font-size: 24px;
+  font-style: black italic;
+  line-height: 30px;
+  text-transform: capitalize;
+  text-align: end;
+  font-weight: bold;
+}
+.konfortabele-section {
+  margin-bottom: 80px;
+  margin-top: -160px;
+}
+.konfortabele-section h1 {
+  text-align: center;
+  line-height: 40.51px;
+  font-weight: 100;
+  font-family: "Overpass", sans-serif;
+  font-size: 32px;
+}
+
+/* shop section css */
+.shop {
+  display: flex;
+  justify-content: center;
+}
+.shop-title {
+  text-transform: capitalize;
+  font-family: "Encode Sans SC", sans-serif;
+  text-align: center;
+}
+.shop-title::after {
+  text-transform: capitalize;
+  font-family: "Encode Sans SC", sans-serif;
+  text-align: center;
+  content: "Neu IM Shop";
+  border-bottom: 2px solid #000;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.shop-img {
+  padding-top: 35px;
+  margin: 6px;
+}
+.shop img {
+  width: 342px;
+  height: 281px;
+}
+
+/* planeten section css */
+.planeten-section {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.planeten {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.planeten h1 {
+  font-size: 20px;
+  font-family: Overpass;
+  font-weight: bold;
+  color: #000000;
+}
+.planeten p {
+  font-size: 20px;
+  font-family: Overpass;
+
+  color: #000000;
+}
+.planeten img {
+  width: 550px;
+  height: 440px;
+}
+
+/* main section css end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Index no 2  */
+/* shop page css start  */
+.shop-banner-section{
+ background-image: url("/src/img/shop/shop-banner.jfif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 670px;
+  margin-top: 0px;
+}
+
+.shop-products{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-gap: 10px;
+   margin-top: 117px;
+   margin-bottom: 107px;
+}
+.shop-product{
+   text-align: center;
+   margin-bottom: 100px;
+}
+.shop-product h1{
+   font-size: 20px;
+   font-family: Encode sans SC;
+   font-style: bold;
+}
+.shop-product button {
+   padding: 8px;
+   font-size: 16px;
+}
+.shop-product img{
+   width: 336px;
+   height: 271px;
+
+}
+/* shop page css end */
+
+ /* index no 4 */
+ /* =========================== */
+/* philosophie page css start */
+.philosophie-banner-section{
+ 
+ background-image: url("/src/img/philosophie/c1d9660f96a10cf0adcf187b205928e0.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 670px;
+  margin-top: 0px;
+   
+}
+.sneaker-section h1{
+   font-family: Encode Sans SC;
+   font-style: bold;
+   font-size: 36px;
+   line-height: 45px;
+}
+.sneaker-section p{
+   font-family: Overpass;
+   font-style: normal;
+   font-size: 24px;
+   line-height: 40px;
+   ;
+}
+
+.macht-man-section img{
+   width: 573px;
+   height: 475px;
+   float:right;
+
+}
+.macht-man{
+   display: grid;
+   grid-template-columns: 1fr 2fr;
+   margin-bottom: 45px;
+}
+.macht-man h3{
+   font-family: Encode Sans SC;
+   font-style: normal;
+   font-size: 22px;
+   line-height: 28px;
+}
+.macht-man p{
+    font-family: Overpass;
+   font-style: normal;
+   font-size: 24px;
+   line-height: 40px;
+}
+
+/* philosophie page css end */
+
+
+
+
+
+
+
+
+
+/* Index No 4 */
+/* ================================= */
+
+/* uber-uns page css start */
+
+.uber-uns-banner-section{
+   
+ background-image: url("/src/img/uber/banner.jfif");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 670px;
+  margin-top: 0px;
+
+}
+.uber-uns-section h1{
+   font-family: Encode Sans SC;
+   font-style: bold;
+   font-size: 36px;
+   line-height: 45px;
+}
+.uber-uns-section p{
+    font-family: Overpass;
+   font-style: 400;
+   font-size: 32px;
+   line-height: 41px;
+}
+.karma-section{
+   margin-top: 45px;
+   margin-bottom: 94px;
+}
+.karma-section img{
+   width: 713px;
+   height: 483px;
+  
+
+}
+.karma-img{
+   margin: auto;
+   text-align: center;
+}
+
+/* uber-uns page css end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer section start */
+
+.footer-bg {
+  background: #000;
+  padding-top: 35px;
+}
+.footer-menu-item {
+  display: flex;
+  margin: auto;
+  list-style: none;
+}
+.footer-menu-item li a {
+  color: #fff;
+  font-size: 12px;
+  margin: 15px;
+  text-decoration: none;
+  font-family: "Encode Sans SC", sans-serif;
+  text-align: center;
+}
+.footer-bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: flex-end;
+  margin-top: 25px;
+}
+.copy-right {
+  color: #fff;
+  font-family: "Encode Sans SC", sans-serif;
+  font-size: 13px;
+  font-weight: 100;
+}
+.social-icon {
+  display: flex;
+  flex-direction: column;
+}
+.social-icon-item {
+  display: flex;
+  justify-content: flex-end;
+}
+.social-icon-item li {
+  list-style: none;
+  margin-left: 10px;
+}
+.icon-title {
+  font-size: 18px;
+  font-family: "Encode Sans SC", sans-serif;
+}
+.social-icon ul li i {
+  color: #fff;
+}
+.social-icon ul li {
+  color: black;
+  font-size: 30px;
+  margin-bottom: -30px;
+}
+.social-icon ul li img {
+  width: 35px;
+  background: #fff;
+  color: #fff;
+  border-radius: 50%;
+}
+.social-icon p {
+  color: #fff;
+  font-family: "Encode Sans SC", sans-serif;
+  text-align: right;
+  text-transform: capitalize;
+}
+/* footer section end */
+/* home page css  end */
